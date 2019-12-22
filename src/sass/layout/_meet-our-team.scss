@@ -1,0 +1,74 @@
+.meet-our-team{
+  text-align: center;
+  h2{
+   padding-top:  112px;
+    padding-bottom: 111px;
+  }
+  a{
+    text-decoration: none;
+    &:hover {
+      border: 2px solid #ffffff;
+      background-color: #17daa3;
+    }
+  }
+  .normal-font{
+    color: #87949e;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    font-size: 18px;
+    line-height: 96px;
+    max-width: 683px;
+  }
+  .boldface{
+    color: #576671;
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+  }
+  .line{
+    background-image: url("../../src/img/Layer_4.png");
+    width: 30px;
+    height: 2px;
+    margin: auto;
+    margin-top: 43px;
+
+  }
+  .container{
+    max-width: 2000px;
+
+    .col{
+      height: 370px;
+      background-color: #f9f9fa;
+      div{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 30%;
+        width: 50%;
+        margin: -15% 0 0 -25%;
+        opacity: 0;
+      }
+      &:hover{
+        background-color: #2eddac;
+        div{
+          color: #ffffff;
+          font-size: 36px;
+          font-weight: 400;
+          letter-spacing: 0.9px;
+          opacity: 1;
+          padding-top: 30px;
+        }
+      }
+    }
+    .checker{
+
+       height: 370px;
+       background-color: #e4e4e4 ;
+     }
+    .another{
+      height: 370px;
+      background-color: #efefef ;
+    }
+
+  }
+}

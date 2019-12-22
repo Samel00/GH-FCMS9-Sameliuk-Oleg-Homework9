@@ -1,0 +1,109 @@
+*{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+.button{
+
+  color: #87949e;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  border-radius: 24px;
+  border: 2px solid  #87949e;
+
+  padding: 19px 50px 17px 53px;
+  letter-spacing: 0.35px;
+}
+
+.header{
+  background-image: url("../../src/img/Background1.png");
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position: center;
+  .position{
+    max-width: 1470px;
+    margin: auto;
+    text-align: center;
+  }
+}
+.about-work .background, .our-services, .pricing{
+  background-image: url("../../src/img/Rectangle_2.png");
+
+}
+.slider{
+  background-image: url("../../src/img/Photo.png");
+
+}
+.block-slider{
+  h2{
+    margin-bottom: 82px;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    .boldface{
+      font-size: 60px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+    }
+
+    .small-font{
+      color: #ffffff;
+      letter-spacing: 0.75px;
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 96px;
+    }
+    .normal-font{
+      font-size: 60px;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+    }
+    .small-font{
+      font-weight: 300;
+      letter-spacing: 0.6px;
+    }
+  }
+
+
+  .carousel-item{
+    text-align: center;
+  }
+  .button{
+    border: 2px solid #ffffff;
+    color: #ffffff;
+  }
+
+  .fa-circle{
+
+    margin: 0 6px;
+    color: #ffffff;
+  }
+  .far{
+    width: 10px;
+    height: 10px;
+  }
+  .fa-chevron-down{
+    width: 28px;
+    height: 15px;
+    text-align: center;
+    opacity: 0.5;
+    margin-left: 6px;
+    margin-top: 265px;
+    margin-bottom: 58px;
+  }
+}
+.try{
+  background-image: url("../../src/img/Try.png");
+}
+.footer{
+  background-image: url("../../src/img/Vector.png");
+  background-repeat:no-repeat ;
+
+  background-position: center;
+
+
+
+}

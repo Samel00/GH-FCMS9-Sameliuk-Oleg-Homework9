@@ -1,0 +1,36 @@
+.about-work{
+  .container{
+    max-width: 1500px;
+    margin-bottom: 164px;
+    padding-bottom: 165px;
+  }
+  .col-xl-6{
+    h3{
+      color: #576671;
+      font-size: 60px;
+      font-weight: 400;
+      line-height: 96px;
+      letter-spacing: 1.5px;
+      margin-bottom: 72px;
+    }
+    p{
+      width: 717px;;
+      color: #87949e;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 36px;
+      letter-spacing: 0.45px;
+      margin-bottom: 74px;
+    }
+
+
+  }
+  .button{
+    text-decoration: none;
+    &:hover{
+      border: 2px solid #ffffff;
+      background-color: #17daa3;
+      color: #ffffff;
+    }
+  }
+}

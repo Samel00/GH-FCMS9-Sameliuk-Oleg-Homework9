@@ -1,0 +1,20 @@
+.footer{
+  .container{
+    max-width: 1500px;
+    padding-top: 72px;
+    padding-bottom: 479px;
+  }
+  a{
+    color: #87949e;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    text-decoration: none;
+    span{
+      padding-left: 21px;
+    }
+    &:hover{
+      color: #a4adb5;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.our-services{
+  text-align: center;
+  .container{
+    max-width: 1500px;
+    padding-bottom: 93px;
+  }
+  a{
+    text-decoration: none;
+    &:hover{
+      border: 2px solid #ffffff;
+      background-color: #17daa3;
+    }
+  }
+  h2{
+    margin: 0;
+    padding-top: 108px;
+    padding-bottom: 166px;
+  }
+  .boldface{
+    color: #576671;
+
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+  }
+  .line {
+    background-image: url("../../src/img/Layer_4.png");
+    width: 30px;
+    height: 2px;
+    margin: auto;
+    margin-top: 43px;
+  }
+  .normal-font{
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    color: #87949e;
+    font-size: 18px;
+    line-height: 96px;
+    max-width: 683px;
+  }
+  .ellipse{
+    margin-right: 55px;
+    border-radius: 50%;
+    width: 94px;
+    height: 94px;
+    background-color: #ffffff;
+    position: relative;
+    margin: auto;
+    svg{
+      fill: #17daa3;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+
+    }
+  }
+  h3{
+    padding-top: 5px;
+    padding-bottom: 55px;
+    color: #576671;
+    font-size: 60px;
+    font-weight: 400;
+margin: 0;
+    letter-spacing: 1.5px;
+    text-align: left;
+  }
+  p{
+
+    color: #87949e;
+    text-align: left;
+
+    font-weight: 400;
+
+
+    letter-spacing: 0.45px;
+  }
+  .position {
+    padding-bottom: 63px;
+  }
+}
